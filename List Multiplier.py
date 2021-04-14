@@ -1,6 +1,6 @@
-def multiply(lst):
-    return [[i]*len(lst) for i in lst]
+def multiply(l):
+    return [[i]*len(l) for i in l]
 
-lst = ["/", "*", "+"]
+l = ["/", "*", "+"]
 
-print(multiply(lst))
+print(multiply(l))

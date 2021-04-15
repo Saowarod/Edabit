@@ -12,7 +12,7 @@
 # num = int(input("Enter number : "))
 # print(is_repdigit(num), "\n")
 
-def is_repdigit(num):
+def repdigit(num):
     for ele in str(num):
         if ele != str(num)[0]:
             return False
@@ -22,4 +22,4 @@ def is_repdigit(num):
     return True
 
 num = int(input("Enter number : "))
-print(is_repdigit(num), "\n")
+print(repdigit(num), "\n")

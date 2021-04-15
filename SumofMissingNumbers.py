@@ -25,7 +25,7 @@
 def sum_missing_numbers(lst):
     	return sum(range(min(lst), max(lst) + 1)) - sum(lst)
  
-lst = [10, 11, 12, 15, 16, 17]
+lst = [4, 3, 8, 1, 2]
 o = max(lst)
 m = min(lst)
 print("min = " , m)
@@ -34,3 +34,4 @@ print("total = ", m + o)
 print("**************************")
 print("Missing NUmbers")
 print(sum_missing_numbers(lst))
+

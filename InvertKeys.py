@@ -4,7 +4,7 @@ def invert(dct):
 print("****************************************************")
 print("Invert Keys and Value")
 print("****************************************************")
-dct = {"bai": 4, "fern": 2}
+dct = {"a": 1, "b": 2, "c": 3}
 print("Key and Value Before Invert = ",dct)
 print("****************************************************")
 # reversed_keyvalue = {value : key for (key, value) in keyvalue.items()}
